@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Build;
 import android.view.View;
 
 /**
@@ -87,9 +88,11 @@ public class Utilies
         else
         {
             Configuration config = context.getResources().getConfiguration();
-            if(config.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
-                //in Right To Left layout
-                return String.valueOf(awaygoals) + " - " + String.valueOf(home_goals);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                if (config.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+                    //in Right To Left layout
+                    return String.valueOf(awaygoals) + " - " + String.valueOf(home_goals);
+                }
             }
             return String.valueOf(home_goals) + " - " + String.valueOf(awaygoals);
         }
