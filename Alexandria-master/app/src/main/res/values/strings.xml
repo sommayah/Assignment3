@@ -90,6 +90,7 @@
     <string name="could_not_start_camera">Could not start camera source.</string>
     <string name="isPortraitMode_false">isPortraitMode returning false by default</string>
     <string name="empty_list_view">There are no books to show</string>
+    <string name="no_author">"No authors for this book</string>
 
 
 <!-- TODO: Remove or change this placeholder text -->
