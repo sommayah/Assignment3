@@ -2,7 +2,7 @@
 ## Description
 * This is the third assignment in the Udacity Android nanodegree. 
 * Alexandria app is an application that scans books ISBN using a barcode scanner and fetches the book information using google API. 
-* football app is an app that shows the results of football european leagues matches. It also has two different kinds of widgets that can be displayed on andorid devices.
+* Football app is an app that shows the results of football European leagues matches. It also has two different kinds of widgets that can be displayed on andorid devices.
 
 ## Features
 * Alexandria has barcode scanning functionality.
